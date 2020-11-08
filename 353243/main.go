@@ -41,7 +41,7 @@ func main() {
 	}
 
 	sum := 0
-	for _, item := range recordss {
+	for _, item := range records {
 		sum += item.GlobalID
 	}
 
